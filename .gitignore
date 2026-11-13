@@ -1,0 +1,13 @@
+# Données : publiques, à télécharger (voir README)
+data/
+
+# Base DuckDB : se reconstruit avec les scripts du dossier sql/
+*.duckdb
+*.duckdb.wal
+
+# Classeurs Tableau : le tableau de bord est publié sur Tableau Public
+*.twb
+*.twbx
+
+# Fichiers système macOS
+.DS_Store

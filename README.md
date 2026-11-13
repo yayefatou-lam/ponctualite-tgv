@@ -40,6 +40,24 @@ Ce projet étudie la ponctualité des TGV à partir des données ouvertes publi�
 
 2026 ne couvre que janvier à septembre : ses chiffres sont signalés comme partiels dans le tableau de bord.
 
+## Interprétation
+
+> Cette partie est ma lecture des résultats. Les données décrivent des retards, pas leurs mécanismes : les explications ci-dessous sont des **hypothèses**, cohérentes avec les chiffres mais non démontrées. Les vérifier demanderait des données que ce jeu ne contient pas (fréquentation, travaux, météo, circulation des autres trains sur les mêmes voies).
+
+**Moins d'annulations, plus de retards.** En 2025, 434 624 TGV ont circulé, soit 18 % de plus qu'en 2019, et le taux de retard est plus élevé. À l'inverse, 2020, avec un tiers de trains en moins, est l'année la plus ponctuelle. Une explication possible : plus de trains sur un réseau dont la capacité n'augmente pas au même rythme laisse moins de marge pour absorber un incident. *Réserve :* d'un mois à l'autre, le nombre de trains n'explique presque rien (corrélation de 0,13), et un nombre de trains ne dit rien du nombre de voyageurs.
+
+**Les trajets longs sont plus exposés.** En 2025, 8,9 % des TGV des liaisons de moins de 2 h arrivent avec plus de 15 min de retard, contre 17,1 % pour celles de plus de 4 h. Un trajet long traverse plus de lignes et de nœuds ferroviaires, donc rencontre plus d'occasions d'incident, et un retard pris en route se rattrape rarement. Cela éclaire en partie les liaisons entre régions (Lille – Marseille, Lyon – Lille…) et les destinations les plus lointaines du sud (Nice, Toulon, Perpignan). *Réserve :* la durée est liée à la destination ; ces données ne permettent pas de séparer l'effet de la distance de celui de l'axe.
+
+**L'axe Paris – Sud-Est, très chargé.** Paris Gare de Lyon concentre le plus grand nombre de TGV du jeu de données (157 890 en 2025). Sur ses liaisons, la gestion du trafic (25,0 %) et l'infrastructure (23,2 %) pèsent plus que sur le reste du réseau (22,7 % et 19,8 %), ce qui va dans le sens d'un axe où un incident se propage plus facilement. La hausse des retards n'y est pourtant pas isolée : entre 2019 et 2025, le taux passe de 10,2 % à 12,7 % sur cet axe, et de 9,2 % à 10,6 % ailleurs. *Réserve :* les causes sont celles déclarées dans les données, et leurs catégories restent larges.
+
+**Paris – Stuttgart, un cas à part.** En 2025, 56,5 % des TGV Paris → Stuttgart arrivent avec plus de 15 min de retard, contre 21,6 % dans le sens Stuttgart → Paris (et 18,9 % pour Paris → Stuttgart en 2024). Les trois quarts de ces retards sont attribués à des causes externes. Comme le retard est mesuré à l'arrivée, un sens se termine sur le réseau allemand, l'autre sur le réseau français. L'hypothèse la plus simple est donc celle de difficultés côté allemand : la Deutsche Bahn a annoncé une ponctualité de 60,1 % pour ses grandes lignes en 2025, avec un seuil de 6 minutes ([dpa](https://www.yahoo.com/news/articles/german-railway-delays-worse-2025-122529826.html)). *Réserve :* je ne connais pas les règles exactes qui classent un retard en « cause externe », et il s'agit d'une seule liaison d'environ 1 400 trains par sens.
+
+**L'été : pas une cause, plutôt un effet général.** Juillet (14,2 %) est nettement moins ponctuel que mars (8,5 %), alors qu'il ne compte qu'environ 8 % de trains en plus. La répartition des causes est presque la même en juin-juillet que le reste de l'année : aucune cause ne « fait » l'été à elle seule. Plusieurs pistes sont plausibles : la chaleur (matériel, voies), des trains plus remplis, des travaux concentrés sur la période estivale. *Réserve :* sans données de fréquentation, de température ou de travaux, ces pistes ne peuvent pas être départagées.
+
+**2026 : trop tôt pour conclure.** Les neuf premiers mois affichent 14,4 % de retards et une forte part de causes externes (31 %). Mais l'année est incomplète, et plusieurs mois de 2026 ont des causes qui ne totalisent pas 100 %, signe de données probablement encore provisoires (voir le [journal de nettoyage](NETTOYAGE.md), décision 8).
+
+**Pour aller plus loin**, ces hypothèses pourraient être testées en croisant ces données avec la météo (Météo-France), le calendrier des travaux (SNCF Réseau) et la fréquentation des trains.
+
 ## Le tableau de bord
 
 <img src="assets/dashboard.png" alt="Haut du tableau de bord : titre, chiffres-clés et évolution annuelle" width="100%">

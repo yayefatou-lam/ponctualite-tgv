@@ -24,7 +24,7 @@ Ce projet étudie la ponctualité des TGV à partir des données ouvertes publi�
 
 ## Résultats
 
-| | |
+| Chiffre | Ce qu'il mesure |
 |---|---|
 | **11,3 %** | des TGV arrivés avec plus de 15 min de retard en 2025, contre 9,6 % en 2019 |
 | **92 sur 121** | liaisons dont la ponctualité a reculé entre 2019 et 2025 |
@@ -68,7 +68,7 @@ Ce projet étudie la ponctualité des TGV à partir des données ouvertes publi�
 
 ## Reproduire
 
-Les données ne sont pas incluses dans le dépôt. Les télécharger dans un dossier `data/` :
+Les données ne sont pas incluses dans le dépôt. Les télécharger dans un dossier `data/` (version utilisée : mise à jour du 2 octobre 2026, janvier 2018 à septembre 2026 ; les fichiers sont mis à jour chaque mois, les effectifs peuvent donc évoluer) :
 - [Régularité mensuelle TGV par liaisons](https://www.data.gouv.fr/datasets/regularite-mensuelle-tgv-par-liaisons) (SNCF, AQST), sous le nom `regularite-mensuelle-tgv-aqst.csv` ;
 - [Gares de voyageurs](https://www.data.gouv.fr/datasets/gares-de-voyageurs-1) (SNCF Gares & Connexions), sous le nom `gares-de-voyageurs.csv`.
 

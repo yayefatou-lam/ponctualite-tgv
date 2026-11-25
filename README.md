@@ -47,7 +47,7 @@ Ce projet étudie la ponctualité des TGV à partir des données ouvertes publi�
 - **Plus de trains, moins de marge.** 18 % de TGV en plus en 2025 qu'en 2019, alors que l'année la plus ponctuelle est 2020, avec un tiers de trains en moins. Un réseau plus chargé absorbe moins bien les incidents.
 - **Les longs trajets sont plus exposés** : en 2025, 8,9 % de retards sur les liaisons de moins de 2 h, 17,1 % au-delà de 4 h. Cela éclaire en partie les liaisons entre régions et le grand sud.
 - **Une hausse générale, plus forte au sud-est** : de 10,2 % à 12,7 % de TGV en retard sur les liaisons de Paris Gare de Lyon entre 2019 et 2025, contre 9,2 % à 10,6 % ailleurs. C'est l'axe le plus chargé, où un incident se répercute le plus facilement.
-- **Paris – Stuttgart, un retard côté allemand ?** 56,5 % de retards dans le sens Paris → Stuttgart, 21,6 % dans l'autre sens. Seul le trajet qui arrive en Allemagne est très touché, ce qui pointe vers le réseau allemand ([ponctualité Deutsche Bahn : 60,1 % en 2025](https://www.yahoo.com/news/articles/german-railway-delays-worse-2025-122529826.html)).
+- **Paris – Stuttgart, un retard côté allemand ?** 56,5 % de retards dans le sens Paris → Stuttgart, 21,6 % dans l'autre sens. Seul le trajet qui arrive en Allemagne est très touché, ce qui pointe vers le réseau allemand ([ponctualité Deutsche Bahn : 60,1 % en 2025 (https://ibir.deutschebahn.com/2025/en/punctuality/)).
 - **L'été, un effet général** : le pic de juin-juillet ne vient d'aucune cause en particulier, ce qui évoque la chaleur, une plus forte affluence ou les travaux en été plutôt qu'un problème précis.
 - **2026, trop tôt pour conclure** : l'année est incomplète et ses données encore provisoires.
 
